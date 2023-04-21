@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	char ch = ʻaʻ;
+        char ch = ʻaʻ;
 while (ch <= ʻzʻ)
 {
-	putchar(ch);
-	ch++
+        putchar(ch);
+        ch++
 }
 putchar(\n);
 return (0);
