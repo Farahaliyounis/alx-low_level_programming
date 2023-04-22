@@ -1,4 +1,4 @@
-#include <stdio. h>
+#include <stdio.h>
 /**
 * main - Entry point
 *
@@ -10,12 +10,13 @@
 
 int main(void)
 {
-        char ch = ʻaʻ;
-while (ch <= ʻzʻ)
+	char ch = 'a';
+
+while (ch <= 'z')
 {
-        putchar(ch);
-        ch++
+	putchar(ch);
+	ch++;
 }
-putchar(\n);
+putchar('\n');
 return (0);
 }
